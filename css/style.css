@@ -1,0 +1,81 @@
+/*  Variables */
+
+:root {
+    --oscuro: #00545C;
+    --medio: #009AA8;
+    --claro: #cdf9ff;
+}
+
+/* Generales */
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: no-repeat center/100% url("../img/background.jpg");
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* Calculadora - Generales */
+
+.calculadora {
+    max-width: 30vw;
+margin-right: 15rem;
+}
+
+/* Resultado */
+
+.resultado {
+    background-color: var(--oscuro);
+    padding: 0.1rem  0.1rem 1.2rem 0.1rem;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px 3px #0d0d0d;
+}
+
+.resultadoInfo{
+    background-color: rgb(0, 0, 0);
+    margin: 1.5rem;
+    color: var(--claro);
+    padding: 0.2rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+.resultadoInfo p {
+    padding-left: 1rem;
+}
+
+/* Operaciones */
+
+.operaciones {
+display: grid;
+grid-template-columns: repeat(6, 1fr);
+grid-template-rows: repeat(6, 1fr);
+gap: 1rem;
+padding: 1.5rem;
+background-color: var(--claro);
+margin-top: -1rem;
+box-shadow: 2px 2px 3px 3px #0d0d0d;
+}
+
+.igual { grid-area: 5 / 6 / 7 / 7; }
+
+
+button {
+    background-color: var(--oscuro);
+    border-radius: 5px;
+    padding: 1rem;
+    color: white;
+    box-shadow: 2px 2px 2px 0px rgba(0,84,92,0.22);
+    border: 1px solid var(--oscuro);
+    font-size: 1.1rem;
+}
