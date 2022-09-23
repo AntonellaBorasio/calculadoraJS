@@ -30,20 +30,20 @@ body {
 
 /* Calculadora - Generales */
 
-.calculadora {
-  margin-right: 15rem;
+.calculadora-container {
+  margin-right: 20rem;
 }
 
 /* Resultado */
 
-.resultado {
+.pantalla-container {
   background-color: var(--oscuro);
   padding: 0.1rem 0.1rem 1.2rem 0.1rem;
   border-radius: 20px;
   box-shadow: 2px 2px 3px 3px #0d0d0d;
 }
 
-.resultadoInfo {
+.pantalla {
   background-color: rgb(0, 0, 0);
   margin: 1.5rem;
   color: var(--claro);
@@ -52,7 +52,7 @@ body {
   font-size: 1.1rem;
 }
 
-.resultadoInfo p {
+.pantalla p {
   padding-left: 1rem;
 }
 

@@ -15,54 +15,58 @@
 <body>
 
   <main>
-    <section class="containerCalculadora">
-      <div class="calculadora">
-        <div class="resultado">
-          <div class="resultadoInfo">
+
+    <section class="calculadora">
+      <div class="calculadora-container">
+        <div class="pantalla-container">
+          <div class="pantalla">
             <p>...</p>
           </div>
         </div>
         <div class="operaciones">
-          <button>(</button>
-          <button>)</button>
-          <button>x!</button>
-          <button>x²</button>
-          <button>√</button>
-          <button>ⁿ√</button>
-          <button>sin</button>
-          <button>cos</button>
-          <button>tan</button>
-          <button>x³</button>
-          <button>³√</button>
-          <button>xⁿ</button>
-          <button>1</button>
-          <button>2</button>
-          <button>3</button>
-          <button>/</button>
-          <button>%</button>
-          <button>ln</button>
-          <button>4</button>
-          <button>5</button>
-          <button>6</button>
-          <button>*</button>
-          <button>log</button>
-          <button>e</button>
-          <button>7</button>
-          <button>8</button>
-          <button>9</button>
-          <button>-</button>
-          <button>AC</button>
-          <button class="igual">=</button>
-          <button>.</button>
-          <button>0</button>
-          <button>π</button>
-          <button>+</button>
-          <button>MR</button>
+          <button id="parentesisIzq" value="(">(</button>
+          <button id="parentesisDer" value=")">)</button>
+          <button id="potenciaX" value="x!">x!</button>
+          <button id="potenciaCuadrado" value="x²">x²</button>
+          <button id="raiz2" value="√">√</button>
+          <button id="nRaiz" value="ⁿ√">ⁿ√</button>
+          <button id="sen" value="sin">sin</button>
+          <button id="cos" value="cos">cos</button>
+          <button id="tag" value="tan">tan</button>
+          <button id="potenciaCubo" value="x³">x³</button>
+          <button id="raiz3" value="³√">³√</button>
+          <button id="potenciaN" value="xⁿ">xⁿ</button>
+          <button id="n1" value="1">1</button>
+          <button id="n2" value="2">2</button>
+          <button id="n3" value="3">3</button>
+          <button id="division" value="/">/</button>
+          <button id="resto" value="%">%</button>
+          <button id="logNep" value="ln">ln</button>
+          <button id="n4" value="4">4</button>
+          <button id="n5" value="5">5</button>
+          <button id="n6" value="6">6</button>
+          <button id="multiplicacion" value="*">*</button>
+          <button id="log10" value="log">log</button>
+          <button id="e" value="e">e</button>
+          <button id="n7" value="7">7</button>
+          <button id="n8" value="8">8</button>
+          <button id="n9" value="9">9</button>
+          <button id="resta" value="-">-</button>
+          <button id="borrar" value="AC">AC</button>
+          <button id="igual" value="=" class="igual">=</button>
+          <button id="coma" value=".">.</button>
+          <button id="n0" value="0">0</button>
+          <button id="pi" value="π">π</button>
+          <button id="suma" value="+">+</button>
+          <button id="recordarMemoria" value="MR">MR</button>
         </div>
       </div>
     </section>
+
   </main>
 
+
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
